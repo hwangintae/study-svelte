@@ -1,10 +1,8 @@
 <script>
-	let num = 0;
-	$: square = num * num;
-	const incrementCount = () => num = num + 1;
+    import MainPage from "./chapter03/MainPage.svelte";
+    import ProductPage from "./chapter03/ProductPage.svelte";
 </script>
 
-<button on:click={incrementCount}>
-	클릭횟수 : {num}
-</button>
-<p>제곱 값: {square}</p>
+<MainPage/>
+<hr />
+<ProductPage/>
