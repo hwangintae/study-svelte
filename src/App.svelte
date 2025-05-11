@@ -1,5 +1,5 @@
 <script>
-    import SvelteFavicon from "./chpater04/SvelteFavicon.svelte";
+    import SvelteHtml from "./chpater04/SvelteHtml.svelte";
 </script>
 
-<SvelteFavicon />
+<SvelteHtml />
