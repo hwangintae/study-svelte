@@ -1,8 +1,5 @@
 <script>
-    import MainPage from "./chapter03/MainPage.svelte";
-    import ProductPage from "./chapter03/ProductPage.svelte";
+    import SvelteFavicon from "./chpater04/SvelteFavicon.svelte";
 </script>
 
-<MainPage/>
-<hr />
-<ProductPage/>
+<SvelteFavicon />
