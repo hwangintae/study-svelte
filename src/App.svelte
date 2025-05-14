@@ -1,5 +1,5 @@
 <script>
-    import MapObject from "./chpater04/MapObject.svelte";
+    import SvelteEach from "./chpater04/SvelteEach.svelte";
 </script>
 
-<MapObject />
+<SvelteEach />
