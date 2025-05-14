@@ -1,5 +1,5 @@
 <script>
-    import SvelteHtml from "./chpater04/SvelteHtml.svelte";
+    import Counter from "./chpater04/Counter.svelte";
 </script>
 
-<SvelteHtml />
+<Counter />
