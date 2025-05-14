@@ -1,5 +1,5 @@
 <script>
-    import Counter from "./chpater04/Counter.svelte";
+    import MapObject from "./chpater04/MapObject.svelte";
 </script>
 
-<Counter />
+<MapObject />
