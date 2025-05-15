@@ -1,8 +1,5 @@
 <script>
-    import MainPage from "./chapter03/MainPage.svelte";
-    import ProductPage from "./chapter03/ProductPage.svelte";
+    import SvelteEach from "./chpater04/SvelteEach.svelte";
 </script>
 
-<MainPage/>
-<hr />
-<ProductPage/>
+<SvelteEach />
