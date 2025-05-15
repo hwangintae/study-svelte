@@ -1,5 +1,5 @@
 <script>
-    import SvelteEach from "./chpater04/SvelteEach.svelte";
+    import Reactivity01 from "./chapter05/Reactivity01.svelte";
 </script>
 
-<SvelteEach />
+<Reactivity01 />
