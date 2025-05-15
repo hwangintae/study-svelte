@@ -1,5 +1,5 @@
 <script>
-    import Reactivity02 from "./chapter05/Reactivity02.svelte";
+    import Reactivity03 from "./chapter05/Reactivity03.svelte";
 </script>
 
-<Reactivity02 />
+<Reactivity03 />
