@@ -1,5 +1,5 @@
 <script>
-    import Mousemove from "./chapter06/Mousemove.svelte";
+    import Mousemove2 from "./chapter06/Mousemove2.svelte";
 </script>
 
-<Mousemove />
+<Mousemove2 />
