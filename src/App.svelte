@@ -1,5 +1,5 @@
 <script>
-    import Reactivity04 from "./chapter05/Reactivity04.svelte";
+    import Mousemove from "./chapter06/Mousemove.svelte";
 </script>
 
-<Reactivity04 />
+<Mousemove />
