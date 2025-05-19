@@ -1,5 +1,5 @@
 <script>
-    import OnclickModifierOnce from "./chapter06/OnclickModifierOnce.svelte";
+    import PreventDefault from "./chapter06/PreventDefault.svelte";
 </script>
 
-<OnclickModifierOnce />
+<PreventDefault />
