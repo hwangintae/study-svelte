@@ -1,5 +1,5 @@
 <script>
-    import OnclickEvent from "./chapter06/OnclickEvent.svelte";
+    import OnclickModifierOnce from "./chapter06/OnclickModifierOnce.svelte";
 </script>
 
-<OnclickEvent />
+<OnclickModifierOnce />
