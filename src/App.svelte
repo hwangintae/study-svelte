@@ -1,5 +1,5 @@
 <script>
-    import Mousemove2 from "./chapter06/Mousemove2.svelte";
+    import OnclickEvent from "./chapter06/OnclickEvent.svelte";
 </script>
 
-<Mousemove2 />
+<OnclickEvent />
