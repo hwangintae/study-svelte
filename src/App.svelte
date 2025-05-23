@@ -1,5 +1,5 @@
 <script>
-    import Reactivity04 from "./chapter05/Reactivity04.svelte";
+    import PreventDefault from "./chapter06/PreventDefault.svelte";
 </script>
 
-<Reactivity04 />
+<PreventDefault />
