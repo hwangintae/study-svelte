@@ -1,5 +1,5 @@
 <script>
-    import PreventDefault from "./chapter06/PreventDefault.svelte";
+    import Parent01 from "./chapter07/Parent01.svelte";
 </script>
 
-<PreventDefault />
+<Parent01 />
