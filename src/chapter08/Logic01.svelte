@@ -6,9 +6,7 @@
 {#if user.loggedState}
     <button on:click={toggle}>로그아웃</button>
     <p>현재 로그인 상태</p>
-{/if}
-
-{#if !user.loggedState}
+{:else}
     <button on:click={toggle}>로그인</button>
     <p>현재 로그아웃 상태</p>
 {/if}
