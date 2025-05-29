@@ -1,5 +1,5 @@
 <script>
-    import Logic05 from "./chapter08/Logic05.svelte";
+    import Input01 from "./chapter09/Input01.svelte";
 </script>
 
-<Logic05/>
+<Input01/>
