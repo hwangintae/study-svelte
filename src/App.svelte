@@ -1,5 +1,5 @@
 <script>
-    import PreventDefault from "./chapter06/PreventDefault.svelte";
+    import Logic05 from "./chapter08/Logic05.svelte";
 </script>
 
-<PreventDefault />
+<Logic05/>
