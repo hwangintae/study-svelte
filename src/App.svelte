@@ -1,5 +1,5 @@
 <script>
-    import Logic02 from "./chapter08/Logic02.svelte";
+    import Logic03 from "./chapter08/Logic03.svelte";
 </script>
 
-<Logic02/>
+<Logic03/>
