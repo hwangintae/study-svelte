@@ -1,5 +1,5 @@
 <script>
-    import Textarea01 from "./chapter09/Textarea01.svelte";
+    import Select01 from "./chapter09/Select01.svelte";
 </script>
 
-<Textarea01/>
+<Select01/>
