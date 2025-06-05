@@ -1,5 +1,5 @@
 <script>
-    import Select03 from "./chapter09/Select03.svelte";
+    import Buckets from "./chapter10/Buckets.svelte";
 </script>
 
-<Select03/>
+<Buckets/>
