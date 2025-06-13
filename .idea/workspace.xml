@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="" />
+    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기">
+      <change afterPath="$PROJECT_DIR$/docs/chapter05/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/chapter06/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/chapter07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/chapter08/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/chapter09/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/chapter10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -22,21 +36,60 @@
   <component name="GitLabDefaultAccount">
     <option name="defaultAccountId" value="96598747-d08a-4516-bf39-9eef0e3194f8" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter10" />
+                    <option name="lastUsedInstant" value="1749095426" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1749095361" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter9" />
+                    <option name="lastUsedInstant" value="1748528939" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter08" />
+                    <option name="lastUsedInstant" value="1748317064" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter07" />
+                    <option name="lastUsedInstant" value="1748317040" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hwangintae/study-svelte.git&quot;,
     &quot;accountId&quot;: &quot;ca9b1af9-0ae3-4ff1-b5ee-47d7e4a0a824&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2workhwNTQ6OyIQ7jF4FY9SKqlG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,17 +97,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "chapter10",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/intaehwang/Desktop/study-svelte",
+    "last_opened_file_path": "/Users/intaehwang/Desktop/study-svelte/docs/chapter10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/chapter10" />
+      <recent name="$PROJECT_DIR$/docs/chapter09" />
+      <recent name="$PROJECT_DIR$/docs/chapter08" />
+      <recent name="$PROJECT_DIR$/docs/chapter07" />
+      <recent name="$PROJECT_DIR$/docs/chapter06" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +137,180 @@
       <updated>1746718912181</updated>
       <workItem from="1746718913329" duration="589000" />
       <workItem from="1746719505928" duration="234000" />
+      <workItem from="1748490076590" duration="1941000" />
+      <workItem from="1748509258357" duration="44000" />
+      <workItem from="1748509814193" duration="32000" />
+      <workItem from="1748527035613" duration="2677000" />
+      <workItem from="1748567249430" duration="4425000" />
+      <workItem from="1749095247767" duration="2689000" />
+      <workItem from="1749115906294" duration="1068000" />
+      <workItem from="1749439355337" duration="2328000" />
+      <workItem from="1749448017599" duration="1247000" />
+      <workItem from="1749651648487" duration="2260000" />
+      <workItem from="1749698967982" duration="2155000" />
+      <workItem from="1749786343053" duration="1313000" />
     </task>
+    <task id="LOCAL-00001" summary="feat/ if 블록">
+      <option name="closed" value="true" />
+      <created>1748317088845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748317088845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat/ if else 블록">
+      <option name="closed" value="true" />
+      <created>1748317142353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748317142353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat/ if else if 블록">
+      <option name="closed" value="true" />
+      <created>1748490096790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490096790</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat/ select 태그에 each로 값 넣기">
+      <option name="closed" value="true" />
+      <created>1748490293041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490293041</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat/ each 문에 idx 추가하기">
+      <option name="closed" value="true" />
+      <created>1748490611688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748490611688</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat/ each 문에 id로 pk 정하기">
+      <option name="closed" value="true" />
+      <created>1748528202964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748528202964</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat/ input tag에 바인딩">
+      <option name="closed" value="true" />
+      <created>1748528956444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748528956444</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat/ input range 바인딩">
+      <option name="closed" value="true" />
+      <created>1748575693122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748575693122</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat/ checkbox 바인딩">
+      <option name="closed" value="true" />
+      <created>1748575714198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748575714198</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat/ group 바인딩">
+      <option name="closed" value="true" />
+      <created>1748575728350</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748575728350</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat/ textarea 바인딩">
+      <option name="closed" value="true" />
+      <created>1748576081061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748576081061</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat/ select option 중 하나만 선택">
+      <option name="closed" value="true" />
+      <created>1748576713938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748576713938</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat/ select option 여러개 선택">
+      <option name="closed" value="true" />
+      <created>1748577521137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748577521137</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat/ checkbox bind group 구현">
+      <option name="closed" value="true" />
+      <created>1749095344377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749095344377</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat/ each 블록 bind 추가">
+      <option name="closed" value="true" />
+      <created>1749116037597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749116037597</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat/ 버킷 추가 삭제 handle 개발">
+      <option name="closed" value="true" />
+      <created>1749116557292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749116557292</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat/ 동영상 재생 시간 출력">
+      <option name="closed" value="true" />
+      <created>1749651994052</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749651994052</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat/ input range로 글자 사이즈 조절">
+      <option name="closed" value="true" />
+      <created>1749652021967</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749652021967</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat/ bind:this를 이용해서 DOM 개별 선택 구현">
+      <option name="closed" value="true" />
+      <created>1749786382124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749786382124</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기">
+      <option name="closed" value="true" />
+      <created>1749787262617</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1749787262617</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +326,28 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat/ if 블록" />
+    <MESSAGE value="feat/ if else 블록" />
+    <MESSAGE value="feat/ if else if 블록" />
+    <MESSAGE value="feat/ select 태그에 each로 값 넣기" />
+    <MESSAGE value="feat/ each 문에 idx 추가하기" />
+    <MESSAGE value="feat/ each 문에 id로 pk 정하기" />
+    <MESSAGE value="feat/ input tag에 바인딩" />
+    <MESSAGE value="feat/ input range 바인딩" />
+    <MESSAGE value="feat/ checkbox 바인딩" />
+    <MESSAGE value="feat/ group 바인딩" />
+    <MESSAGE value="feat/ textarea 바인딩" />
+    <MESSAGE value="feat/ select option 중 하나만 선택" />
+    <MESSAGE value="feat/ select option 여러개 선택" />
+    <MESSAGE value="feat/ checkbox bind group 구현" />
+    <MESSAGE value="feat/ each 블록 bind 추가" />
+    <MESSAGE value="feat/ 버킷 추가 삭제 handle 개발" />
+    <MESSAGE value="feat/ 동영상 재생 시간 출력" />
+    <MESSAGE value="feat/ input range로 글자 사이즈 조절" />
+    <MESSAGE value="feat/ bind:this를 이용해서 DOM 개별 선택 구현" />
+    <MESSAGE value="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기" />
   </component>
 </project>
