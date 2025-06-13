@@ -1,5 +1,5 @@
 <script>
-    import Select03 from "./chapter09/Select03.svelte";
+    import Parent01 from "./chapter10/Parent01.svelte";
 </script>
 
-<Select03/>
+<Parent01 />
