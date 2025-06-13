@@ -1,5 +1,7 @@
 <script>
-    import Buckets from "./chapter10/Buckets.svelte";
+    import Binding04 from "./chapter10/Binding04.svelte";
 </script>
 
-<Buckets/>
+<Binding04/>
+<Binding04/>
+<Binding04/>
