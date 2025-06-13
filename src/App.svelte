@@ -1,7 +1,5 @@
 <script>
-    import Binding04 from "./chapter10/Binding04.svelte";
+    import Parent01 from "./chapter10/Parent01.svelte";
 </script>
 
-<Binding04/>
-<Binding04/>
-<Binding04/>
+<Parent01 />
