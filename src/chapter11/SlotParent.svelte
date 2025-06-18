@@ -13,3 +13,4 @@ import Child01 from "./Child01.svelte";
     <p>배포 연도 : 2013년</p>
     <img src="https://svelte.dev/favicon.png" alt="스벨트(Svelte)" height="50" />
 </Child01>
+<Child01></Child01>

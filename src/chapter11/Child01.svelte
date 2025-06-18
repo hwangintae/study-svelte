@@ -1,5 +1,7 @@
 <div class="box">
-    <slot />
+    <slot>
+        <p>입력된 데이터가 없습니다.</p>
+    </slot>
 </div>
 
 <style>
