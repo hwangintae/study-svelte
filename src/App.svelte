@@ -1,5 +1,5 @@
 <script>
-    import Parent01 from "./chapter10/Parent01.svelte";
+    import Update02 from "./chapter11/Update02.svelte";
 </script>
 
-<Parent01 />
+<Update02 />
