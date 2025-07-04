@@ -4,11 +4,13 @@
     let isElementView = false;
     let input;
 
-    const handleClick = (param) => {
+    const handleClick = async (param) => {
         isElementView = param;
 
+        await tick();
+
         if (isElementView === true) {
-            tick().then(() => input.focus());
+            input.focus();
         }
     }
 </script>
