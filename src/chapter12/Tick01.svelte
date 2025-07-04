@@ -1,4 +1,6 @@
 <script>
+    import { tick } from 'svelte';
+
     let isElementView = false;
     let input;
 
@@ -6,7 +8,7 @@
         isElementView = param;
 
         if (isElementView === true) {
-            input.focus();
+            tick().then(() => input.focus());
         }
     }
 </script>
