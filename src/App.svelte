@@ -1,5 +1,5 @@
 <script>
-    import Update02 from "./chapter11/Update02.svelte";
+    import Tick01 from "./chapter12/Tick01.svelte";
 </script>
 
-<Update02 />
+<Tick01/>
