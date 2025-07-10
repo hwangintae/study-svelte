@@ -1,5 +1,7 @@
 <script>
-    export let num;
+    import {getContext} from "svelte";
+
+    let num = getContext('num');
 
     $:square = num * num;
 </script>

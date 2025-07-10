@@ -1,7 +1,9 @@
 <script>
     import PropsFather from "./PropsFather.svelte";
+    import {getContext, setContext} from "svelte";
 
-    let num = 1;
+    setContext('num', 2);
+    let num = getContext('num');
 </script>
 
 <div>
@@ -9,5 +11,5 @@
     <button on:click={() => num++}>1씩 증가</button>
     <p>기본 숫자 : { num }</p>
     <hr />
-    <PropsFather num={num} />
+    <PropsFather />
 </div>
