@@ -1,5 +1,6 @@
 <script>
-    import Tick01 from "./chapter12/Tick01.svelte";
+    import Counter02 from "./chapter13/Counter02.svelte";
+    import PropsGrand from "./chapter13/PropsGrand.svelte";
 </script>
 
-<Tick01/>
+<PropsGrand />

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기">
-      <change afterPath="$PROJECT_DIR$/docs/chapter05/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/chapter06/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/chapter07/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/chapter08/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/chapter09/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/chapter10/README.md" afterDir="false" />
+    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat / store를 이용한 counter 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter13/PropsChild.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/PropsChild.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter13/PropsGrand.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/PropsGrand.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +43,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="chapter10" />
-                    <option name="lastUsedInstant" value="1749095426" />
+                    <option name="branchName" value="chapter13" />
+                    <option name="lastUsedInstant" value="1751613573" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1749095361" />
+                    <option name="lastUsedInstant" value="1751600287" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="chapter9" />
-                    <option name="lastUsedInstant" value="1748528939" />
+                    <option name="branchName" value="chapter12" />
+                    <option name="lastUsedInstant" value="1751599592" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="chapter08" />
-                    <option name="lastUsedInstant" value="1748317064" />
+                    <option name="branchName" value="chapter11" />
+                    <option name="lastUsedInstant" value="1750219192" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="chapter07" />
-                    <option name="lastUsedInstant" value="1748317040" />
+                    <option name="branchName" value="chapter10" />
+                    <option name="lastUsedInstant" value="1749095426" />
                   </RecentBranch>
                 </list>
               </option>
@@ -94,29 +92,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "chapter10",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/intaehwang/Desktop/study-svelte/docs/chapter10",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;chapter13&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/intaehwang/Desktop/study-svelte/src/chapter11&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter11" />
       <recent name="$PROJECT_DIR$/docs/chapter10" />
       <recent name="$PROJECT_DIR$/docs/chapter09" />
       <recent name="$PROJECT_DIR$/docs/chapter08" />
       <recent name="$PROJECT_DIR$/docs/chapter07" />
-      <recent name="$PROJECT_DIR$/docs/chapter06" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter13" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -148,7 +149,19 @@
       <workItem from="1749448017599" duration="1247000" />
       <workItem from="1749651648487" duration="2260000" />
       <workItem from="1749698967982" duration="2155000" />
-      <workItem from="1749786343053" duration="1313000" />
+      <workItem from="1749786343053" duration="1903000" />
+      <workItem from="1750218489682" duration="239000" />
+      <workItem from="1750249791736" duration="3289000" />
+      <workItem from="1750305074810" duration="2063000" />
+      <workItem from="1750649237020" duration="3030000" />
+      <workItem from="1750821501763" duration="3943000" />
+      <workItem from="1751599257467" duration="6783000" />
+      <workItem from="1752118389680" duration="2158000" />
+      <workItem from="1752206347980" duration="835000" />
+      <workItem from="1752637655916" duration="1231000" />
+      <workItem from="1752723912494" duration="2101000" />
+      <workItem from="1753155218160" duration="1000" />
+      <workItem from="1753267821922" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="feat/ if 블록">
       <option name="closed" value="true" />
@@ -310,7 +323,159 @@
       <option name="project" value="LOCAL" />
       <updated>1749787262617</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="docs/ chapter10 정리">
+      <option name="closed" value="true" />
+      <created>1749787752107</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749787752107</updated>
+    </task>
+    <task id="LOCAL-00022" summary="docs/ chapter05 ~ chapter09 까지 정리한 글, 읽고 느낀점 수정">
+      <option name="closed" value="true" />
+      <created>1749787871170</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749787871170</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat/ slot을 이용하여 콘텐츠 전달">
+      <option name="closed" value="true" />
+      <created>1750219222282</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750219222282</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat/ slot에 기본값 적용">
+      <option name="closed" value="true" />
+      <created>1750249902584</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750249902584</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat/ slot name 설정해서 전달하기">
+      <option name="closed" value="true" />
+      <created>1750250782054</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750250782054</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat/ 자식 component에서 slot을 이용하여 부모 component에 상태값 전달하기">
+      <option name="closed" value="true" />
+      <created>1750305417084</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1750305417084</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat/ 조건 slot을 이용한 성능 최적화">
+      <option name="closed" value="true" />
+      <created>1750649373224</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750649373224</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat/ onMount를 이용하여 init">
+      <option name="closed" value="true" />
+      <created>1750822191007</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750822191007</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat/ onMount, onDestroy 비교">
+      <option name="closed" value="true" />
+      <created>1750822212569</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750822212569</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat/ beforeUpdate, afterUpdate를 사용하여 autocroll 설정">
+      <option name="closed" value="true" />
+      <created>1751599366403</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1751599366403</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat/ input 태그 활성화 비활성화(focus가 먼저되는 문제가 있어 오류 발생)">
+      <option name="closed" value="true" />
+      <created>1751599576791</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1751599576791</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat/ input 태그 활성화 비활성화(focus가 먼저되는 문제가 있어 오류 발생)">
+      <option name="closed" value="true" />
+      <created>1751599596623</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1751599596623</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat/ tick() 적용">
+      <option name="closed" value="true" />
+      <created>1751599932254</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1751599932254</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat/ 비동기 함수 실행 시 tick을 동기로 처리">
+      <option name="closed" value="true" />
+      <created>1751600244833</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751600244833</updated>
+    </task>
+    <task id="LOCAL-00035" summary="etc / App으로 화면 테스트">
+      <option name="closed" value="true" />
+      <created>1751600272795</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1751600272795</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat / Props drilling">
+      <option name="closed" value="true" />
+      <created>1752118444939</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1752118444939</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat / contextAPI로 수정하였으나 Child에서 reativity가 작동하지 않는다.">
+      <option name="closed" value="true" />
+      <created>1752118737093</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1752118737093</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat / dispatch를 이용하여 상위 component에게 event 전달">
+      <option name="closed" value="true" />
+      <created>1752206512566</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1752206512566</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat / store를 이용한 counter 구현">
+      <option name="closed" value="true" />
+      <created>1752724946928</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1752724946928</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,19 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat/ if 블록" />
-    <MESSAGE value="feat/ if else 블록" />
-    <MESSAGE value="feat/ if else if 블록" />
-    <MESSAGE value="feat/ select 태그에 each로 값 넣기" />
-    <MESSAGE value="feat/ each 문에 idx 추가하기" />
-    <MESSAGE value="feat/ each 문에 id로 pk 정하기" />
-    <MESSAGE value="feat/ input tag에 바인딩" />
-    <MESSAGE value="feat/ input range 바인딩" />
-    <MESSAGE value="feat/ checkbox 바인딩" />
-    <MESSAGE value="feat/ group 바인딩" />
-    <MESSAGE value="feat/ textarea 바인딩" />
-    <MESSAGE value="feat/ select option 중 하나만 선택" />
-    <MESSAGE value="feat/ select option 여러개 선택" />
     <MESSAGE value="feat/ checkbox bind group 구현" />
     <MESSAGE value="feat/ each 블록 bind 추가" />
     <MESSAGE value="feat/ 버킷 추가 삭제 handle 개발" />
@@ -348,6 +500,24 @@
     <MESSAGE value="feat/ input range로 글자 사이즈 조절" />
     <MESSAGE value="feat/ bind:this를 이용해서 DOM 개별 선택 구현" />
     <MESSAGE value="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기" />
+    <MESSAGE value="docs/ chapter10 정리" />
+    <MESSAGE value="docs/ chapter05 ~ chapter09 까지 정리한 글, 읽고 느낀점 수정" />
+    <MESSAGE value="feat/ slot을 이용하여 콘텐츠 전달" />
+    <MESSAGE value="feat/ slot에 기본값 적용" />
+    <MESSAGE value="feat/ slot name 설정해서 전달하기" />
+    <MESSAGE value="feat/ 자식 component에서 slot을 이용하여 부모 component에 상태값 전달하기" />
+    <MESSAGE value="feat/ 조건 slot을 이용한 성능 최적화" />
+    <MESSAGE value="feat/ onMount를 이용하여 init" />
+    <MESSAGE value="feat/ onMount, onDestroy 비교" />
+    <MESSAGE value="feat/ beforeUpdate, afterUpdate를 사용하여 autocroll 설정" />
+    <MESSAGE value="feat/ input 태그 활성화 비활성화(focus가 먼저되는 문제가 있어 오류 발생)" />
+    <MESSAGE value="feat/ tick() 적용" />
+    <MESSAGE value="feat/ 비동기 함수 실행 시 tick을 동기로 처리" />
+    <MESSAGE value="etc / App으로 화면 테스트" />
+    <MESSAGE value="feat / Props drilling" />
+    <MESSAGE value="feat / contextAPI로 수정하였으나 Child에서 reativity가 작동하지 않는다." />
+    <MESSAGE value="feat / dispatch를 이용하여 상위 component에게 event 전달" />
+    <MESSAGE value="feat / store를 이용한 counter 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat / store를 이용한 counter 구현" />
   </component>
 </project>
