@@ -91,4 +91,4 @@
 <ProductPage/>
 ```
 
-![chapter03Result.png](./chapter03Result.png)
+![chapter03Result.png](chapter03Result.png)

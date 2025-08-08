@@ -35,7 +35,7 @@ svelte는 JS 변수처럼 사용하고, 마크업 영역에서는 중괄호({})�
 
 <img {src} alt="svelte favicon" />
 ```
-![chapter04Favicon.png](./chapter04Favicon.png)
+![chapter04Favicon.png](chapter04Favicon.png)
 
 #### 4.1.3 상탯값의 태그 문자열 인식
 @html 뒤에 상태변수명을 붙이면 태그로 반환
@@ -47,7 +47,7 @@ svelte는 JS 변수처럼 사용하고, 마크업 영역에서는 중괄호({})�
   
 <p> {@html str} </p>
 ```
-![chapter04@Html.png](./chapter04Html.png)
+![chapter04@Html.png](chapter04Html.png)
 
 ## 4.2 클릭 이벤트를 이용한 상탯값 변경
 ```svelte

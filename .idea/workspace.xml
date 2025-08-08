@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat/ 버튼 클릭하면 class 수정">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/Class03.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="etc/ 내용 없음" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="chapter15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +36,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="chapter15" />
-                    <option name="lastUsedInstant" value="1753848150" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1754633308" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1753847443" />
+                    <option name="branchName" value="chapter15" />
+                    <option name="lastUsedInstant" value="1753848150" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="chapter14" />
@@ -89,22 +85,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;chapter15&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/intaehwang/Desktop/study-svelte/src/chapter11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/intaehwang/Desktop/study-svelte/src/chapter11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/chapter11" />
@@ -164,38 +160,7 @@
       <workItem from="1753713592118" duration="7000" />
       <workItem from="1753845982329" duration="6532000" />
       <workItem from="1754458885343" duration="2527000" />
-    </task>
-    <task id="LOCAL-00002" summary="feat/ if else 블록">
-      <option name="closed" value="true" />
-      <created>1748317142353</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1748317142353</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat/ if else if 블록">
-      <option name="closed" value="true" />
-      <created>1748490096790</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1748490096790</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat/ select 태그에 each로 값 넣기">
-      <option name="closed" value="true" />
-      <created>1748490293041</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1748490293041</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat/ each 문에 idx 추가하기">
-      <option name="closed" value="true" />
-      <created>1748490611688</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1748490611688</updated>
+      <workItem from="1754629576792" duration="3353000" />
     </task>
     <task id="LOCAL-00006" summary="feat/ each 문에 id로 pk 정하기">
       <option name="closed" value="true" />
@@ -557,7 +522,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754460345069</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat/ 라디오 버튼으로 css 번경하기">
+      <option name="closed" value="true" />
+      <created>1754632168788</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1754632168789</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat/ sass 적용">
+      <option name="closed" value="true" />
+      <created>1754633219544</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1754633219544</updated>
+    </task>
+    <task id="LOCAL-00053" summary="docs/ chapter15 정리">
+      <option name="closed" value="true" />
+      <created>1754633237074</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1754633237074</updated>
+    </task>
+    <task id="LOCAL-00054" summary="etc/ 내용 없음">
+      <option name="closed" value="true" />
+      <created>1754633338709</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1754633338709</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,10 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat/ slot에 기본값 적용" />
-    <MESSAGE value="feat/ slot name 설정해서 전달하기" />
-    <MESSAGE value="feat/ 자식 component에서 slot을 이용하여 부모 component에 상태값 전달하기" />
-    <MESSAGE value="feat/ 조건 slot을 이용한 성능 최적화" />
     <MESSAGE value="feat/ onMount를 이용하여 init" />
     <MESSAGE value="feat/ onMount, onDestroy 비교" />
     <MESSAGE value="feat/ beforeUpdate, afterUpdate를 사용하여 autocroll 설정" />
@@ -612,6 +605,10 @@
     <MESSAGE value="feat/ svelte css 기본 사용법" />
     <MESSAGE value="feat/ class: 지시문 을 이용한 svelte css 적용" />
     <MESSAGE value="feat/ 버튼 클릭하면 class 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat/ 버튼 클릭하면 class 수정" />
+    <MESSAGE value="feat/ 라디오 버튼으로 css 번경하기" />
+    <MESSAGE value="feat/ sass 적용" />
+    <MESSAGE value="docs/ chapter15 정리" />
+    <MESSAGE value="etc/ 내용 없음" />
+    <option name="LAST_COMMIT_MESSAGE" value="etc/ 내용 없음" />
   </component>
 </project>
