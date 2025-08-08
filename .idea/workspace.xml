@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat / store를 이용한 counter 구현">
+    <list default="true" id="17df8fdb-0dcb-46f9-a038-fdb24b8042be" name="Changes" comment="feat/ 버튼 클릭하면 class 수정">
+      <change afterPath="$PROJECT_DIR$/src/chapter15/Class03.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter13/PropsChild.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/PropsChild.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter13/PropsGrand.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/PropsGrand.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +40,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="chapter15" />
+                    <option name="lastUsedInstant" value="1753848150" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1753847443" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter14" />
+                    <option name="lastUsedInstant" value="1753415153" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="chapter13" />
                     <option name="lastUsedInstant" value="1751613573" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1751600287" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="chapter12" />
                     <option name="lastUsedInstant" value="1751599592" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="chapter11" />
-                    <option name="lastUsedInstant" value="1750219192" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="chapter10" />
-                    <option name="lastUsedInstant" value="1749095426" />
                   </RecentBranch>
                 </list>
               </option>
@@ -95,7 +92,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;chapter13&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;chapter15&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/intaehwang/Desktop/study-svelte/src/chapter11&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -162,14 +159,11 @@
       <workItem from="1752723912494" duration="2101000" />
       <workItem from="1753155218160" duration="1000" />
       <workItem from="1753267821922" duration="8000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat/ if 블록">
-      <option name="closed" value="true" />
-      <created>1748317088845</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1748317088845</updated>
+      <workItem from="1753414776791" duration="1466000" />
+      <workItem from="1753521483273" duration="2428000" />
+      <workItem from="1753713592118" duration="7000" />
+      <workItem from="1753845982329" duration="6532000" />
+      <workItem from="1754458885343" duration="2527000" />
     </task>
     <task id="LOCAL-00002" summary="feat/ if else 블록">
       <option name="closed" value="true" />
@@ -475,7 +469,95 @@
       <option name="project" value="LOCAL" />
       <updated>1752724946928</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="feat / store를 이용하여 제곱수 계산">
+      <option name="closed" value="true" />
+      <created>1753414858168</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1753414858168</updated>
+    </task>
+    <task id="LOCAL-00041" summary="아... chapter14 못만들었음...">
+      <option name="closed" value="true" />
+      <created>1753415040876</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1753415040876</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat/ readable을 이용한 현재시간 출력">
+      <option name="closed" value="true" />
+      <created>1753415565470</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1753415565470</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat/ store 복제로 들어온 시간 계산">
+      <option name="closed" value="true" />
+      <created>1753525702130</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1753525702130</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat/ custom store">
+      <option name="closed" value="true" />
+      <created>1753846000067</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1753846000067</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat/ store를 binding">
+      <option name="closed" value="true" />
+      <created>1753846098923</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1753846098923</updated>
+    </task>
+    <task id="LOCAL-00046" summary="docs/ chapter 14를 읽고 느낀점">
+      <option name="closed" value="true" />
+      <created>1753847634499</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1753847634499</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat/ svelte css 기본 사용법">
+      <option name="closed" value="true" />
+      <created>1753848128599</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1753848128599</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat/ svelte css 기본 사용법">
+      <option name="closed" value="true" />
+      <created>1753848154558</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1753848154558</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat/ class: 지시문 을 이용한 svelte css 적용">
+      <option name="closed" value="true" />
+      <created>1753853041390</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1753853041390</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat/ 버튼 클릭하면 class 수정">
+      <option name="closed" value="true" />
+      <created>1754460345069</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1754460345069</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,23 +568,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat/ checkbox bind group 구현" />
-    <MESSAGE value="feat/ each 블록 bind 추가" />
-    <MESSAGE value="feat/ 버킷 추가 삭제 handle 개발" />
-    <MESSAGE value="feat/ 동영상 재생 시간 출력" />
-    <MESSAGE value="feat/ input range로 글자 사이즈 조절" />
-    <MESSAGE value="feat/ bind:this를 이용해서 DOM 개별 선택 구현" />
-    <MESSAGE value="feat/ bind:을 통해 자손 component에서 부모 component 값 변경하기" />
-    <MESSAGE value="docs/ chapter10 정리" />
-    <MESSAGE value="docs/ chapter05 ~ chapter09 까지 정리한 글, 읽고 느낀점 수정" />
-    <MESSAGE value="feat/ slot을 이용하여 콘텐츠 전달" />
     <MESSAGE value="feat/ slot에 기본값 적용" />
     <MESSAGE value="feat/ slot name 설정해서 전달하기" />
     <MESSAGE value="feat/ 자식 component에서 slot을 이용하여 부모 component에 상태값 전달하기" />
@@ -518,6 +602,16 @@
     <MESSAGE value="feat / contextAPI로 수정하였으나 Child에서 reativity가 작동하지 않는다." />
     <MESSAGE value="feat / dispatch를 이용하여 상위 component에게 event 전달" />
     <MESSAGE value="feat / store를 이용한 counter 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat / store를 이용한 counter 구현" />
+    <MESSAGE value="feat / store를 이용하여 제곱수 계산" />
+    <MESSAGE value="아... chapter14 못만들었음..." />
+    <MESSAGE value="feat/ readable을 이용한 현재시간 출력" />
+    <MESSAGE value="feat/ store 복제로 들어온 시간 계산" />
+    <MESSAGE value="feat/ custom store" />
+    <MESSAGE value="feat/ store를 binding" />
+    <MESSAGE value="docs/ chapter 14를 읽고 느낀점" />
+    <MESSAGE value="feat/ svelte css 기본 사용법" />
+    <MESSAGE value="feat/ class: 지시문 을 이용한 svelte css 적용" />
+    <MESSAGE value="feat/ 버튼 클릭하면 class 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat/ 버튼 클릭하면 class 수정" />
   </component>
 </project>

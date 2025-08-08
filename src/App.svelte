@@ -1,6 +1,5 @@
 <script>
-    import Counter02 from "./chapter13/Counter02.svelte";
-    import PropsGrand from "./chapter13/PropsGrand.svelte";
+    import Sass01 from "./chapter15/Sass01.svelte";
 </script>
 
-<PropsGrand />
+<Sass01 />
