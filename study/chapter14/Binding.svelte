@@ -1,5 +1,5 @@
 <script>
-    import { name, greeting } from './store05';
+    import { name, greeting } from './store05.js';
 </script>
 
 <h1>{$greeting}</h1>

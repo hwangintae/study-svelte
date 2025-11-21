@@ -1,5 +1,6 @@
 <script>
-    import Sass01 from "./chapter15/Sass01.svelte";
+
+    import Element from "../study/chapter19/Element.svelte";
 </script>
 
-<Sass01 />
+<Element/>

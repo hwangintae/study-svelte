@@ -1,5 +1,5 @@
 <script>
-    import { count } from './store04';
+    import { count } from './store04.js';
 </script>
 
 <h1>현재 값: {$count}</h1>
