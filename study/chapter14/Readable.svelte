@@ -1,5 +1,5 @@
 <script>
-    import {time} from './store02';
+    import {time} from './store02.js';
 
     const formatter = new Intl.DateTimeFormat('en', {
         hour12: true,

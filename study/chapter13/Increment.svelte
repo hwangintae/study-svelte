@@ -1,5 +1,5 @@
 <script>
-    import { count } from './Store01'
+    import { count } from './Store01.js'
 
     const increment = () => {
         count.update((n) => n + 1);
