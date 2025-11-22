@@ -1,13 +1,16 @@
 <script>
     import Icon from '@iconify/svelte';
+
+    export let bucket;
 </script>
 
 <div class="bucketitem">
-    <input type="checkbox" id="chk" />
-    <label for="chk" class="checkcircle">
+    <input type="checkbox" id={bucket.id}
+    bind:checked={bucket.chk}/>
+    <label for={bucket.id} class="checkcircle">
         <Icon icon="ic:round-check" />
     </label>
-    <p>버킷 리스트 적기</p>
+    <p>{bucket.text}</p>
     <button class="remove">
         <Icon icon="gridicons:trash" />
     </button>
