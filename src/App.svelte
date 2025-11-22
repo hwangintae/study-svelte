@@ -13,6 +13,10 @@
             return bucket.id === id ? {...bucket, chk: !bucket.chk } : bucket;
         })
     }
+
+    const onRemove = (id) => {
+        buckets = buckets.filter((bucket) => bucket.id !== id);
+    }
 </script>
 
 <svelte:head>
@@ -20,6 +24,6 @@
 </svelte:head>
 <div class="bucketbox">
     <BucketHeader {chkCount}/>
-    <BucketList {buckets} {onToggle}/>
+    <BucketList {buckets} {onToggle} {onRemove}/>
     <BucketCreate/>
 </div>

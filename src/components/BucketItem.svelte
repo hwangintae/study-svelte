@@ -3,6 +3,7 @@
 
     export let bucket;
     export let onToggle;
+    export let onRemove;
 </script>
 
 <div class="bucketitem">
@@ -16,7 +17,7 @@
         <Icon icon="ic:round-check"/>
     </label>
     <p>{bucket.text}</p>
-    <button class="remove">
+    <button class="remove" on:click={() => onRemove(bucket.id)}>
         <Icon icon="gridicons:trash"/>
     </button>
 </div>
