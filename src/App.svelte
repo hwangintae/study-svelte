@@ -3,9 +3,11 @@
     import BucketList from "./components/BucketList.svelte";
     import BucketCreate from "./components/BucketCreate.svelte";
     import {initialBuckets} from "./bucketData.js";
+    import { v4 as uuidv4 } from "uuid";
 
     let buckets = initialBuckets;
     let editMode = '';
+    let bucketText = '';
 
     $: chkCount = buckets.filter((bucket) => !bucket.chk).length;
 
@@ -43,6 +45,24 @@
         }
     }
 
+    const onDataChange = (e) => {
+        bucketText = e.target.value;
+    }
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+
+        if (bucketText) {
+            const bucket = {
+                id: uuidv4(),
+                text: bucketText,
+                chk: false
+            };
+            buckets = [...buckets, bucket];
+        }
+        bucketText = '';
+    }
+
 </script>
 
 <svelte:head>
@@ -51,5 +71,5 @@
 <div class="bucketbox">
     <BucketHeader {chkCount}/>
     <BucketList {buckets} {onToggle} {onRemove} {editMode} {onEditMode} {onEditKeyup}/>
-    <BucketCreate/>
+    <BucketCreate {bucketText} {onDataChange} {onSubmit}/>
 </div>
