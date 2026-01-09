@@ -1,26 +1,33 @@
 <script>
+    import {buckets} from '../store';
     import Icon from '@iconify/svelte';
+    import {v4 as uuidv4} from 'uuid';
 
+    let chkId = uuidv4();
     export let bucket;
-    export let onToggle;
-    export let onRemove;
-    export let editMode;
-    export let onEditMode;
-    export let onEditKeyup;
+
+    const {onToggle, onRemove, onEditMode, offEditMode, onEditItem} = buckets;
+
+    const onEditKeyup = (e) => {
+        if(e.keyCode === 13) {
+            onEditItem(bucket);
+            offEditMode();
+        }
+    }
 
 </script>
 
 <div class="bucketitem">
-    <input type="checkbox" id={bucket.id}
+    <input type="checkbox" id={chkId}
            bind:checked={bucket.chk}/>
-    <label for={bucket.id} class="checkcircle"
+    <label for={chkId} class="checkcircle"
            on:click={() => onToggle(bucket.id)}
            on:keydown={() => onToggle(bucket.id)}
            role="presentation"
     >
         <Icon icon="ic:round-check"/>
     </label>
-    {#if editMode === bucket.id}
+    {#if $buckets.editMode === bucket.id}
         <input
                 type="text"
                 bind:value={bucket.text}
