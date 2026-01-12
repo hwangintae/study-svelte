@@ -1,107 +1,92 @@
-/* base */
-*{ padding: 0; margin: 0; }
-body{ background-color: #e9ecef; }
+*{ padding: 0; margin: 0; color: #333; }
+li{ list-style: none; }
+a{ text-decoration: none; }
 
-/* bucketbox */
-.bucketbox{
-    width: 512px; height: 768px;
-    overflow: hidden; margin: auto;
-    position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    background: #fff; border-radius: 16px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+
+/* bestbox */
+.bestbox{
+    width: 1180px; margin: 0 auto;
+    padding: 10px 10px 90px; box-sizing: border-box;
+    position: relative; /* +/x 자버튼 위치 컨트롤 */
 }
 
-/* bucketheader */
-.bucketheader{
-    padding: 48px 32px 24px;
-    border-bottom: 1px solid #e9ecef;
+.bestbox h2{ height: 70px; font-size: 30px; line-height: 70px; text-align: center; }
+.bestbox ul{ width: 100%; overflow: hidden; margin-bottom: 30px; }
+.bestbox li{ float: left; width: 270px; height: 270px; margin: 10px; }
+.bestbox li a{ display: block; width: 100%; height: 100%; position: relative; }
+.bestbox li a:hover .box{ opacity: 1; }
+.bestbox li img{
+    display: block; width: 100%; height: 100%;
+    object-fit: cover;
 }
-.bucketheader h1{
-    margin: 0 0 30px; color: #333;
-    font-size: 36px; text-align: center;
+.bestbox li .likebox{
+    position: absolute; right: 8px; top: 8px; z-index: 100;
+    border: none; background-color: transparent;
+    cursor: pointer;
 }
-.bucketheader h2{
-    margin-top: 4px; font-size: 20px;
-    color: #666; text-align: right;
+.bestbox li .likebox svg{ width: 24px; height: 24px; }
+.bestbox li .likebox path{ color: #e51a92; }
+.bestbox .box{
+    width: 100%; height: 100%;
+    position: absolute; top: 0; left: 0;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 40px 20px; box-sizing: border-box;
+    opacity: 0; transition: 0.3s;
 }
-.bucketheader p{
-    margin-top: 10px; color: #0593d3;
-    font-size: 20px; text-align: right;
-    font-weight: bold;
+.bestbox .box > *{ color: #fff; }
+.bestbox .box h3{ height: 70px; font-size: 30px; line-height: 70px; text-align: center; }
+.bestbox .box h4{ height: 70px; font-size: 19px; }
+.bestbox .box h5{ height: 40px; font-size: 16px; }
+.bestbox .box p{ font-size: 14px; }
+.bestbox .box button{
+    position: absolute; left: 0; right: 0; bottom: 20px; margin: 0 auto;
+    border: none; background-color: transparent; cursor: pointer;
 }
+.bestbox .box button svg{ width: 24px; height: 24px; }
+.bestbox .box button path{ color: #fff; }
 
-/* bucketlist */
-.bucketlist{
-    padding: 20px 32px 48px;
-    height: 350px; /* create후 수치조절 */
-    overflow-y: auto; /* 리스트 많으면 스크롤바생성 */
-}
 
-/* bucketitem */
-.bucketitem{
-    position: relative; padding: 12px 0;
-    display: flex; align-items: center;
-}
-.bucketitem p{ font-size: 21px; color: #495057; }
-.bucketitem input[type="checkbox"]{ position: absolute; left: -999em; }
-.bucketitem input[type="text"]{ width: 330px; padding: 5px 10px; }
-.bucketitem .checkcircle{
-    display: flex; align-items: center; justify-content: center;
-    width: 32px; height: 32px;
-    border-radius: 16px; margin-right: 20px;
-    border: 1px solid #ced4da;
-    font-size: 24px; cursor: pointer;
-}
-.bucketitem .checkcircle > *{ color: #0593d3; display: none; }
-.bucketitem input:checked + .checkcircle{ border-color: #0593d3; }
-.bucketitem input:checked + .checkcircle > *{ display: block; }
-.bucketitem input:checked ~ p{ color: #0593d3; text-decoration: line-through; }
-.bucketitem .remove{
-    position: absolute; right: 0;
-    transform: translateY(-50%,50%);
-    margin-top: 10px;
-    color: #dee2e6; font-size: 24px;
-    cursor: pointer; border: none;
-    background-color: transparent;
-    display: none; /* 안보이게 처리 */
-}
-.bucketitem .remove:hover{ color: #ff6b6b; }
-/* 리스트에 마우스 올리면 휴지통 아이콘 보이게 처리 */
-.bucketitem:hover .remove{ display: block; }
-
-/* bucketcreate */
+/* BestCreate */
 .createform{
-    width: 100%; transition: 0.2s;
-    position: absolute; bottom: 0; left: 0;
-    transform: translateY(100%);
+    position: absolute; bottom: 0; margin-bottom: 10px;
+    width: 100%; padding: 0 10px; box-sizing: border-box;
+    transform: translateY(100%) scaleY(0);
+    transform-origin: center top; transition: 0.3s;
 }
-.createform.active{ transform: translateY(0); }
+.createform.active{ transform: translateY(100%) scaleY(1); }
 .createform.active + .circlebox{ /* 회전되서 빨간색X */
     background: #fa5252;
     transform: rotate(45deg); /* 회전처리 */
 }
-.createform form{
-    background: #f8f9fa;
-    padding: 32px 112px 36px 32px;
-    border-radius: 0 0 16px 16px;
-    border-top: 1px solid #e9ecef;
-}
+.createform legend{ font-size: 18px; font-weight: bold; }
+.createform fieldset{ padding: 20px; }
 .createform input{
-    width: 100%; padding: 12px;
-    border-radius: 4px; box-sizing: border-box;
-    border: 1px solid #dee2e6;
-    outline: none; font-size: 16px;
+    width: 260px; height: 30px; padding: 0 10px;
+    box-sizing: border-box; color: #000;
+    margin-bottom: 20px; margin-right: 30px;
 }
+.createform textarea{ width: 601px; padding: 10px; margin-bottom: 20px; color: #000; }
+.createform .dlabel{ position: relative; top: -70px; margin-right: 16px; }
+.createform button{
+    display: block; margin: 0 auto;
+    width: 150px; height: 40px;
+    background-color: #e51a92; color: #fff;
+    border: none; font-size: 16px;
+    line-height: 39px; cursor: pointer;
+}
+.createform input:focus, .createform textarea:focus{
+    background-color: lightyellow;
+}
+
 .circlebox{
     position: absolute; right: 16px; bottom: 16px; z-index: 5;
     width: 80px; height: 80px; cursor: pointer;
     display: flex; align-items: center; justify-content: center;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     border-radius: 50%; border: none; outline: none;
-    background: #0593d3;
-    font-size: 60px; color: white;
-
+    background: #e51a92; font-size: 60px;
     transition: 0.125s all ease-in; /* X자로 회전시 자연스럽게 처리 */
 }
-.circlebox:hover{ background: #36bffc; }
+.circlebox:hover{ background: #ff46b3; }
+.circlebox path{  color: #fff; }
