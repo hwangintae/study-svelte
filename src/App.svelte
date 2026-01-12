@@ -1,6 +1,14 @@
 <script>
-
-    import Element from "../study/chapter19/Element.svelte";
+    import BucketHeader from "./components/BucketHeader.svelte";
+    import BucketList from "./components/BucketList.svelte";
+    import BucketCreate from "./components/BucketCreate.svelte";
 </script>
 
-<Element/>
+<svelte:head>
+    <title>My Bucket List</title>
+</svelte:head>
+<div class="bucketbox">
+    <BucketHeader/>
+    <BucketList/>
+    <BucketCreate/>
+</div>
