@@ -1,14 +1,11 @@
 <script>
-    import BucketHeader from "./components/BucketHeader.svelte";
-    import BucketList from "./components/BucketList.svelte";
-    import BucketCreate from "./components/BucketCreate.svelte";
+    import Title from "./components/Title.svelte";
+    import BestList from "./components/BestList.svelte";
+    import BestCreate from "./components/BestCreate.svelte";
 </script>
 
-<svelte:head>
-    <title>My Bucket List</title>
-</svelte:head>
-<div class="bucketbox">
-    <BucketHeader/>
-    <BucketList/>
-    <BucketCreate/>
+<div class="bestbox">
+    <Title name="BEST TOUR" />
+    <BestList />
+    <BestCreate />
 </div>
